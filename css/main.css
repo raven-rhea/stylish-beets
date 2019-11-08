@@ -2,7 +2,8 @@ html {
   box-sizing: border-box;
   background-color: #c9b5ab;
   line-height: 1.5;
-  font-family: "PT Sans""PT Serif";
+  font-family: "PT Serif";
+  font-family: "PT Sans";
 }
 
 *, *::before, *::after {
@@ -10,7 +11,7 @@ html {
 }
 
 h1 {
-  font-size: 1.5rem
+  font-size: 1.5rem;
   color: #3f1622;
   font-weight: bold;
 }
@@ -35,7 +36,7 @@ dt {
 }
 
 a {
-  font-size: 1.125;
+  font-size: 1.125rem;
   color: #8f2440;
   text-decoration: none;
 }
@@ -60,4 +61,8 @@ img {
 
 .common {
   list-style-type: upper-latin;
+}
+
+data {
+  font-weight: bold;
 }
